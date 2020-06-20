@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title> index : Ado </title>
+    <link rel="stylesheet" href="assets/css/swiper.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/brandHotel.css">
+    <link rel="shortcut icon" href="assets/images/common/logo_header.png">
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/fadeInUp.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#intro').stop().delay(2000).fadeOut(500);
+            var mySwiper = new Swiper('.swiper-container', {
+                loop: true,
+                pagination: {
+                        el: '.swiper-pagination',
+                        type: 'fraction',
+                },
+            });
+            $('#gnb ul li .nolink').on('click', function () {
+                $(this).next().addBack().toggleClass('on');
+
+                $(this).next().find('.nolink, ul').removeClass('on');
+
+                $(this).parent().siblings().find('.nolink, ul').removeClass('on');
+                
+                return false;
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="intro">
+        <div>
+            <strong>편안한 5성급 애완 동물 호텔</strong>
+            <p>Ado Pet Hotel에 오신것을 환영합니다.</p>
+        </div>
+    </div>
+    <div id="wrap">
+        <header id="header">
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="assets/images/common/logo_header.png" alt="Ado" class="logo_h" srcset="assets/images/common/logo_header.png 2x, assets/images/common/logo_header.png 3x">
+                </a>
+            </h1>
+            <button class="btn_menu">
+                <span class="sr-only">메뉴 열기</span>
+                <span class="line top"></span>
+                <span class="line mid"></span>
+                <span class="line btm"></span>
+            </button>
+            <button class="btn_mypage">
+                <img src="assets/images/common/user.png" alt="마이페이지" srcset="assets/images/common/user.png 2x, assets/images/common/user.png 3x">
+            </button>
+            <nav id="gnb">
+                <h2 class="sr-only">주메뉴</h2>
+                <div class="sign">
+                    <div class="login">
+                        <a href="">로그인</a>
+                        <a href="">회원가입</a>
+                    </div>
+                    <div class="center">
+                        <a href="">고객센터</a>
+                        <a href="">오시는 길</a>
+                    </div>
+                </div>
+                <ul>
+                    <li class="nolink">
+                        <a href="" ><span>RESERVATION</span></a>
+                    </li>
+                    <li>
+                        <a href="BrandConcept.html">
+                            <span>BRAND STORY</span>
+                        </a>
+                        <ul>
+                            <li><a href="BrandConcept.html">Brand Concept</a></li>
+                            <li><a href="Vision.html">Vision</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Rooms.html"><span>HOTEL</span></a>
+                        <ul>
+                            <li><a href="Rooms.html">Rooms</a></li>
+                            <li><a href="SubsidiaryFacilities.html">Subsidiary Facilities</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href=""><span>SERVICE</span></a>
+                        <ul>
+                            <li><a href="">Pet Gromming</a></li>
+                            <li><a href="">Medical Center</a></li>
+                            <li><a href="">Training</a></li>
+                            <li><a href="">Pet Foods</a></li>
+                            <li><a href="">Pet Supplies</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href=""><span>MEMBERSHIP</span></a>
+                        <ul>
+                            <li><a href="">등급별 혜택</a></li>
+                            <li><a href="">포인트 이용 방법</a></li>
+                            <li><a href="">이용약관</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="content">
+            <h2 class="sr-only">메인 본문 </h2>
+            <article class="main">
+                <h3 class="sr-only">호텔 소개</h3>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- 상세내용 -->
+                        <div class="swiper-slide slider1">
+                            <img class="img1" src="assets/images/main/hotel_1.jpg" alt="">
+                            <img class="img2" src="assets/images/main/hotel_4.jpg" alt="">
+                            <p>PET HOTEL</p>
+                        </div>
+                        <div class="swiper-slide slider2">
+                            <img class="img1" src="assets/images/main/grooming_1.jpg" alt="">
+                            <img class="img2" src="assets/images/main/grooming_2.JPG" alt="">
+                            <p>PET GROOMING</p>
+                        </div>
+                        <div class="swiper-slide slider3">
+                            <img class="img1" src="assets/images/main/training_1.jpg" alt="">
+                            <img class="img2" src="assets/images/main/training_2.jpg" alt="">
+                            <p>TRAINING</p>
+                        </div>
+                        <div class="swiper-slide slider4">
+                            <img class="img1" src="assets/images/main/medical1.jpg" alt="">
+                            <img class="img2" src="assets/images/main/medical2.jpg" alt="">
+                            <p>MEDICAL CENTER</p>
+                        </div>
+                        <div class="swiper-slide slider5">
+                            <img class="img1" src="assets/images/main/food_1.jpg" alt="">
+                            <img class="img2" src="assets/images/main/food_2.jpg" alt="">
+                            <p>PET FOOD</p>
+                        </div>
+                        <div class="swiper-slide slider6">
+                            <img class="img1" src="assets/images/main/goods_1.png" alt="">
+                            <img class="img2" src="assets/images/main/goods_2.png" alt="">
+                            <p>PET SUPPLIES</p>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </article>
+
+            <article class="system">
+                <h3>안심하고 믿고 맡길 수 있습니다.</h3>
+                <p>반려견과 보호자를 위한 안전하고  <br>
+                편리한 맞춤형 서비스와 엄선된 전문가들의  <br>
+                신뢰 높은 토탈케어 서비스를 제공합니다.</p>
+                <ul class="clearfix">
+                    <li class="totalcare service_1 f_l fade">
+                        <img src="assets/images/main/vet.png" alt="">
+                        <p>국내 최고의 행동치료 <br>전문 수의사와 교육 <br>전문가의 책임 관리</p>
+                    </li>
+                    <li class="totalcare service_2 f_r fade">
+                        <img src="assets/images/main/24hours.png" alt="">
+                        <p>안전한 반려견 케어를 <br>위한 24시간 전문가 <br>상주 시스템 구축</p>
+                    </li>
+                    <li class="totalcare service_1 f_l fade">
+                        <img src="assets/images/main/pickup.png" alt="">
+                        <p>집 앞까지 안전하게 <br>이동할 수 있는 원클릭 <br>펫택시 픽업 서비스</p>
+                    </li>
+                    <li class="totalcare service_2 f_r fade">
+                        <img src="assets/images/main/medical.png" alt="">
+                        <p>수의사의 데일리 회진을 <br>통한 철저한 반려견 <br>건강 관리</p>
+                    </li>
+                    <li class="totalcare service_1 f_l fade">
+                        <img src="assets/images/main/fresh.png" alt="">
+                        <p>최첨단 공조시스템 <br>(음압설비)으로 최적의 <br>환기와 통풍 상태 유지</p>
+                    </li>
+                    <li class="totalcare service_2 f_r fade">
+                        <img src="assets/images/main/checklist.png" alt="">
+                        <p>반려견, 보호자를 위한 <br>맞춤형 교육 프로그램 운영</p>
+                    </li>
+                </ul>
+            </article>
+
+            <article class="howtouse p_r">
+                <h3 class="fade">Ado는 365일 연중무휴로 운영됩니다.</h3>
+                <div class="method">
+                    <h4 class="fade">탁견절차</h4>
+                    <ul>
+                        <li class="fade">
+                            <strong>1. 상담하기</strong>
+                            <p>문자, 카톡, 전화하기 <br>
+                            매일 아침 10시 ~ 오후 9시까지 상담가능 <br>
+                            (주말, 공휴일, 명절 등도 OK)</p>
+                        </li>
+                        <li class="fade">
+                            <strong>2. 예약하기</strong>
+                            <p>예약 후 결제는 문자나 카톡으로 주소 및 가격을 보내드려요. <br>
+                            작성하신 후 입금이 확인되면 완료!</p>
+                        </li>
+                        <li class="fade">
+                            <strong>3. 아이 맡기기</strong>
+                            <p>호텔로 직접 오셔도 되고 원하신다면 픽업도 가능합니다.</p>
+                        </li>
+                        <li class="fade">
+                            <strong>4. 사진/동영상 받아보기</strong>
+                            <p>아기가 보고싶거나 잘 지내는지 확인하고 <br>
+                            싶으시다면 카톡 남겨주세요. <br>
+                            사진 또는 동영상을 즉석에서 찍어 보내드립니다! <br>
+                            맡기기 전에 원하는 시간대를 말씀해주시면 <br>
+                            실시간으로 보내드립니다!</p>
+                        </li>
+                        <li class="fade">
+                            <strong>5. 아이와 재회하기</strong>
+                            <p>맡길 때는 직접 오셔야만 데리고 가실 수 있습니다. <br>
+                            픽업, 맡기는 것과 데리고 가는 것은 <br>
+                            오전 10시 30분부터 오후 8시 30분까지 가능합니다.</p>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="info">
+                    <li class="fade">
+                        <img src="assets/images/main/clock.png" alt="영업시간">
+                        <span>매일 10:30 ~ 21 :00</span>
+                    </li>
+                    <li class="fade">
+                        <img src="assets/images/main/kakao.png" alt="">
+                        <span>플러스친구[Ado]로 검색</span>
+                    </li>
+                    <li class="fade">
+                        <img src="assets/images/main/phone.png" alt="">
+                        <span>Ado 서울숲 캠퍼스 : 1566-4508</span>
+                        <span>Ado 서울숲 메디컬센터 : 02-6454-6182</span>
+                    </li>
+                    <li class="fade">
+                        <img src="assets/images/main/location.png" alt="">
+                        <span>서울특별시 성동구 왕십리로 241</span>
+                        <span>서울숲더샵 엔터식스에비뉴 4층</span>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <footer id="footer">
+            <a href=""><img src="assets/images/common/logo_footer.png" alt="Ado"></a>
+            <div>
+                <p>㈜Ado 서울숲 캠퍼스 <br>
+                대표이사 : 박지연 <br>
+                사업자번호 : 372-15-88692</p>
+                <address>주소 : 서울특별시 성동구 왕십리로 241 <br>
+                전화 : 1566-7825</address>
+            </div>
+            <p>copyright&copy;2019 Ado.All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>

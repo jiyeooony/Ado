@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* tag reset */
+.brandS, .brandC, .BIC{border: none;background: none;cursor: pointer;margin: 0;padding: 0;}
+
+.main .swiper-container{max-width: 550px;margin: 0 auto;padding-bottom: 42px;}
+.main .swiper-slide::after{content: "";display: block;clear: both;}
+.main .swiper-slide img{opacity: 0;transition: all 0.5s;}
+.main .swiper-slide .img1{transform: translateY(-40px);}
+.main .swiper-slide .img2{transform: translateY(40px);}
+.main .swiper-slide.swiper-slide-active img{opacity: 1;transform: translateY(0px);}
+.main .swiper-slide .img1{margin-bottom: 5px;}
+.main .slider1 .img1{width: 61.444%;float: left;}
+.main .slider1 .img2{width: 81.111%;float: right;}
+.main .slider2 .img1{width: 78.444%;float: right;}
+.main .slider2 .img2{width: 78.129%;float: left;}
+.main .slider3 .img1{width: 73.888%;float: left;}
+.main .slider3 .img2{width: 48.666%;float: right;}
+.main .slider4 .img1{width: 65.888%;float: right;}
+.main .slider4 .img2{width: 78.408%;float: left;}
+.main .slider5 .img1{width: 84.888%;float: left;}
+.main .slider5 .img2{width: 67.777%;float: right;}
+.main .slider6 .img1{width: 60%;float: left;}
+.main .slider6 .img2{width: 66.777%;float: right;margin-top: -110px;}
+.main .swiper-slide p{position: absolute;bottom: -44px;left: 0px;width: 100%;height: 30px;line-height: 30px;font-size: 22px;text-align: center;font-weight: 700;opacity: 0;transition: all 0.5s;transform: translateY(50px);}
+.main .swiper-slide.swiper-slide-active p{opacity: 1;transform: translateY(0px);}
+.swiper-pagination-fraction{bottom: 3px;width: 20%;}
+
+/* main-content */
+#content{padding-top: 85px;}
+#content .system{position: relative;text-align: center;letter-spacing: -0.04px;}
+#content .system h3{font-size: 18px;font-weight: 600;margin-top: 50px;line-height: 12px;color: #4bbe9e;}
+#content .system > p{font-size: 14px;margin-top: 20px;font-family: dreamG;line-height: 22px;}
+.system ul{padding-top: 30px;}
+.system ul li{float: left;width: 50%;height: 140px;}
+.system ul li img{height: 70px;}
+.system ul li:nth-child(2) img, .system ul li:nth-child(3) img{height: auto;width: 80px;}
+.system ul li:nth-child(2) img{padding-bottom: 19px;}
+.system ul li:nth-child(3) img{padding-bottom: 15px;}
+.system ul li p{line-height: 15px;padding: 10px 0;font-family: dreamG;}
+
+.howtouse{border: 1px solid #4bbe9e;width: 330px;margin: 0 auto;margin-top: 50px;border-radius: 5px;text-align: center;}
+.howtouse h3{font-size: 18px;margin-top: 15px;color: #4bbe9e;}
+.howtouse .method h4{font-size: 16px;margin-top: 20px;}
+.howtouse .method ul li{margin-top: 35px;font-family: dreamG;}
+.howtouse > .method > ul > li > strong{color: #4bbe9e;font-size: 16px;letter-spacing: 0.12px;font-weight: 400;}
+.howtouse .method ul li p{margin-top: 10px;}
+
+.howtouse .info{font-family: dreamG;margin: 30px 15px;text-align: left;line-height: 18px;}
+.howtouse .info li:nth-child(even){text-align: right;}
+.howtouse .info li img{width: 30px;margin-bottom: 10px;}
+.howtouse .info li span{display: block;font-size: 14px;}
+
+/* brand-concept */
+.concept_tit a{background: #4bbe9e;color: #fff;}
+.concept_tit a + a{background: #fff;color: #4bbe9e;margin-left: 23px;border: 1px solid #4d4c50;}
+
+.brandC .bg_box{background: url(../images/brandStory/intotneconcept.jpg) no-repeat center fixed;}
+.brandC h3{margin-top: 30px;}
+.brandC .periodofP h4{margin: 70px 0 0 139px;}
+.brandC .foot_bg{background: url(../images/brandStory/brandConcept_petpaws_2.png) no-repeat left bottom;background-size: 30%;line-height: 1.8;padding-bottom: 70px;}
+.brandC .present{background-position: right bottom;}
+
+.brandC .periodofP, .brandC .present, .brandC .BIC{vertical-align: middle;text-align: center;}
+.brandC .periodofP h4, .brandC .present h4, .brandC .BIC h4{display: block;font-size: 16px;line-height: 20px;font-weight: 600;border-top: 2px solid #4bbe9e;border-bottom: 2px solid #4bbe9e;padding: 10px 0;width: 90px;margin: 0 auto;}
+.brandC .periodofP p, .brandC .present p{display: block;font-family: dreamG;font-weight: 300;letter-spacing: -0.4px;text-align: center;margin-top: 20px;}
+.brandC .periodofP p + p, .brandC .present p + p{margin-top: 20px;}
+
+.brandC .BIC figure{display: inline-block;width: 250px;height: 150px;margin-top: 30px;}
+.brandC .BIC figure img + img{margin-left: 25px;}
+
+.brandC .BIC figure + ul{width: 250px;margin: 0 auto 40px auto;}
+.brandC .BIC figure + ul li{height: 50px;line-height: 25px;margin: 10px 0;}
+.BIC ul li .color-box, .BIC ul li .txt{float: left;}
+.BIC ul li .color-box{width: 60px;height: 48px;border-radius: 5px;border: 1px solid #000;margin-right: 5px;}
+.BIC ul li .txt{font-family: dreamG;text-align: left;}
+.BIC ul .white .color-box{background: #fff;}
+.BIC ul .gray .color-box{background: #4d4c50;}
+.BIC ul .mint .color-box{background: #4bbe9e;}
+
+.BIC .font ul{margin-top: 30px;font-size: 17px;line-height: 30px;}
+.BIC .font ul li:nth-child(1) strong{letter-spacing: -0.4px;}
+.BIC .font ul li:nth-child(1) strong span{font-size: 25px;font-family: cafe24D;font-weight: 500;}
+.BIC .font ul li:nth-child(2) span{font-weight: 600;}
+.BIC .font ul li:nth-child(3) span{font-family: dreamG;}
+.BIC .font p{font-family: dreamG;margin-top: 20px;}
+.BIC .font p + p{margin: 20px 0 64px;}
+
+/* vision */
+.vision_tit .btn a{background: #fff;color: #4bbe9e;border: 1px solid #4d4c50;}
+.vision_tit .btn a + a{margin-left: 23px;background: #4bbe9e;color: #fff;border: none;}
+.vision_tit a + a, .vision_tit a:hover, .vision_tit a:focus{}
+.Vision{}
+.bg_box{width: 100%;height: 200px;text-align: center;margin: 50px 0;box-sizing: border-box;background-size: cover;}
+.Vision .bg_box{background-image: url(../images/brandStory/vision_tit.jpg);}
+.Vision h3{margin-top: 160px;}
+.comm_box{padding: 60px 0 110px;margin-top: 15px;}
+.comm_box > ul{font-family: dreamG;font-weight: 200;line-height: 16px;left: 50%;margin: 35px 15px;}
+.comm_box ul li{display: flex;justify-content: center;align-items: center;position: absolute;border-radius: 50%;background: #4d4c50;color: #ffffff;width: 130px;height: 130px;opacity: 0.5;left: 50%;text-align: center;transition: all 1s;}
+.comm_box ul .purpose1, .comm_box ul .purpose2{top: 9px;}
+.comm_box ul .purpose3, .comm_box ul .purpose4{bottom: 23px;}
+.comm_box ul .purpose1, .comm_box ul .purpose3{margin-left: -164px;}
+.comm_box ul .purpose2, .comm_box ul .purpose4{margin-left: 34px;}
+.comm_box ul li p{display: table-cell;vertical-align: middle;}
+.comm_box .vision_center{background: url(../images/brandStory/vision_bg.png) no-repeat center;width: 300px;height: 300px;margin: 0 auto;display: flex;justify-content: center;align-items: center;font-weight: 600;}
+.comm_box .vision_center p{display: block;font-size: 14px;line-height: 18px;font-weight: 600;text-align: center;}
+.Vision .partner strong{display: block; font-family: dreamG;font-weight: 500;font-size: 14px;line-height: 18px;text-align: center;letter-spacing: -0.4px;color: #4bbe9e;margin-top: 25px;}
+
+/* hotel-rooms */
+.roomF h2{background-color: #e2e2e2;}
+.roomF .btn{text-align: center;left: 0;bottom: -17px;position: absolute;width: 100%;}
+.brandH .btn a{ width: 145px;border: 1px solid #4d4c50;background: #ffffff;color: #4bbe9e;height: 45px;vertical-align: middle;line-height: 1.12; display: inline-block;font-size: 18px;font-weight: 700;border-radius: 5px;padding-top: 10px;}
+.brandH .btn a + a{margin-left: 20px;}
+.brandH .btn a.active{background: #4bbe9e;color: #fff;border: none;}
+.roomF .btn .line_h{line-height: 35px !important;}
+
+.fade{opacity: 0;transform: translateY(50px);transition: all 0.5s;}
+.fade.on{opacity: 1;transform: translateY(0);}
+
+.hotelIntro{text-align: center;margin-top: 60px;}
+.hotelIntro h3{font-family: dreamG;font-size: 18px;font-weight: 400;line-height: 22px;margin-bottom: 15px;}
+.hotelIntro strong{font-size: 16px;font-weight: 600;line-height: 20px;color: #4bbe9e;}
+.hotelIntro p{font-family: dreamG;margin-top: 15px;padding-bottom: 20px;}
+.hotelIntro span{font-size: 16px;line-height: 20px;font-weight: 600;color: #4bbe9e;}
+
+.room_info{text-align: center;}
+.room_info > h3, .room_info > h4{display: block;font-size: 18px;font-weight: 600;margin: 50px;text-align: center;margin: 30px 0 20px;}
+.room_info > h3::before, .room_info > h3::after, .room_info > h4::before, .room_info > h4::after{content: "";height: 18px;width: 2px;margin: 0px 15px -2px;display: inline-block;background: #4bbe9e;transform: rotate(30deg);}
+
+.room_info > ul{display: flex;flex-wrap: wrap;padding: 0 15px;font-family: dreamG;font-size: 14px;font-weight: 300;margin: 0 auto;}
+.room_info > ul li{display: flex;height: 100%;justify-content: center;align-items: center;width: 90px;margin: 10px 5px;background: #fff;border: 1px solid #4d4c50;height: 55px;vertical-align: top;border-radius: 5px;}
+.room_info > ul li.active{background: #4bbe9e;color: #ffffff;}
+.room_info > div{position: relative;}
+.room_info > div .txt{background: rgb(77, 76, 80, .5);z-index: 100;text-align: center;color: #ffffff;position: absolute;padding: 5px;font-family: dreamG;font-size: 12px;line-height: 16px;font-weight: 200;}
+/* .room_info [role="tabpanel"]{display: none;}
+.room_info [role="tabpanel"].active{display: block;} */
+.room_info [role="tabpanel"] .smallRoom{width: 200px;bottom: 6px;left: 6px;}
+.room_info [role="tabpanel"] .bigRoom{width: 338px;top: 6px;left: 6px;}
+.room_info [role="tabpanel"] .txt strong{font-family: aritaB;font-size:20px;line-height: 24px;color: #0b0b0b;}
+.room_info [role="tabpanel"] .explanation{text-align: right;position: absolute;}
+.room_info [role="tabpanel"] .explanation + P{margin-left: 163px;text-align: left;}
+.room_info #tabpanel3 .txt .explanation{margin-left: 18px;}
+.room_info #tabpanel3 .txt .explanation + p{margin-left: 150px;}
+.room_info #tabpanel4 .txt .explanation + p{margin-left: 168px;}
+.room_info #tabpanel5 .txt{width: 200px;top: 8px;}
+.room_info #tabpanel6 .txt .explanation{margin-left: 15px;}
+.room_info #tabpanel6 .txt .explanation + p{margin-left: 190px;}
+
+.room_info [role="tabpanel"] .explanation span{margin-left: 80px;}
+.room_info [role="tabpanel"] .txt .price{font-weight: 500;font-size: 16px;line-height: 20px;color: #0b0b0b;}
+.room_info #tabpanel3 .txt .price, .room_info #tabpanel4 .txt .price, .room_info #tabpanel6 .txt .price{margin-left: 20px;}
+.room_info [role="tabpanel"] .txt .price span{font-family: aritaB;font-size: 16px;font-weight: 500;}
+
+.room_info > .time{font-family: dreamG;font-size: 16px;font-weight: 400;}
+.room_info > .time span{margin-left: 25px;font-size: 14px;}
+.room_info > .color, .room_info > .notice{font-family: dreamG;font-weight: 400;margin-top: 20px;}
+.room_info > .color{font-size: 14px;color: #4bbe9e;}
+.room_info > .notice{font-size: 12px;line-height: 20px;}
+.room_info > .reserve{display: inline-block;font-family: dreamG;font-weight: 400;font-size: 22px;width: 150px;height: 35px;background: #ffffff;border-radius: 10px;border: 1px solid #4d4c50;margin-top: 50px;padding-top: 18px;text-align: center;}
+.room_info > .reserve:hover, .room_info > .reserve:focus{background: #4bbe9e;color: #ffffff;}
+
+/* hotel-subsidiary facilities */
+#Facilities_cnt{text-align: center;}
+#Facilities_cnt h3{font-size: 18px;font-weight: 600;margin-top: 65px;}
+.subSpace p, .subS_txt{font-family: dreamG;line-height: 16px;margin: 10px 0;}
+.subS_txt{width: 100%;border-top: 2px solid #4bbe9e;border-bottom: 2px solid #4bbe9e;padding-top: 20px;}
+.subS_tit{margin-top: 60px;margin-bottom: 25px;text-align: center;font-size: 16px;font-weight: 500;}
+#Facilities_cnt .pool, .playland_bg1, .grooming_bg, .medical_bg{width: 100%;height: 250px;background: no-repeat center;background-size: cover;}
+
+.facilities .subS_txt{height: 63px;}
+#Facilities_cnt .pool{background: url(../images/hotel/sf_1.jpg) no-repeat center fixed;}
+.swimmingP p{padding-bottom: 20px;}
+.academy{display: block;}
+.academy .academy_bg1, .academy .academy_bg2, .playland .playland_bg2{background: no-repeat center;width: 50%;height: 200px;}
+
+.fix_cnt{height: 295px;overflow: auto;}
+.fix_cnt div div{float: left;width: 50%;box-sizing: border-box;}
+.fix_cnt div .img{height: 295px;background: no-repeat center;background-size: cover;}
+.fix_cnt div .academy1{background-image: url(../images/hotel/sf_2.jpg);}
+.fix_cnt div .academy2{background-image: url(../images/hotel/sf_3.jpg);}
+.fix_cnt div .txt{font-family: dreamG;text-align: left;padding: 10px;}
+.fix_cnt div .txt .right{text-align: right;}
+.fix_cnt div .txt ul li{margin-bottom: 30px;}
+.fix_cnt div .txt strong{display: block;color: #4bbe9e;font-size: 16px;line-height: 2;}
+.fix_cnt div .txt p{line-height: 1.6;}
+
+.playland{display: block;position: relative;}
+.playland h4{margin-top: 55px;}
+.playland .playland_bg1{background: url(../images/hotel/sf_4.jpg) no-repeat center fixed;}
+.playland .subS_txt{height: 52px;}
+.playland .fix_cnt div div{float: right;}
+.fix_cnt div .playland_bg2{background-image: url(../images/hotel/sf_5.jpg);}
+.playland .fix_cnt div .img{height: 414px;}
+.grooming h4{margin-top: 55px;}
+.grooming .grooming_bg{background-image: url(../images/hotel/Pet-Grooming-1.jpg);}
+.grooming .subS_txt{height: 80px;}
+.medical .subS_txt{height: 97px;}
+.medical .medical_bg{background-image: url(../images/hotel/medical.jpg);}
+
+/* 공통 스타일 */
+.conceptV{margin-top: 80px;box-sizing: border-box;}
+.roomF{margin-top: 80px;box-sizing: border-box;background-size: cover;padding-top: 12px;text-align: left;}
+.brandH{position: relative;}
+.brandH .img, .roomF .img{position: relative;left: 50%;max-width: 600px;min-width: 320px;width: 100%;height: auto;transform: translateX(-50%);}
+.brandH h2{position: absolute;top: 30px; width: 230px;height: 36px;line-height: 36px;margin-left: -115px;;font-size: 22px;font-weight: 700;text-align: center;left: 50%;border-radius: 5px;color: #2b2b2b;}
+.conceptV h2{background-color: #fff;}
+.conceptV .btn{position:absolute;left: 0;bottom: -17px;width: 100%;text-align: center;}
+.conceptV .btn a{height: 25px;}
+.brandC h3, .Vision h3{display: inline-block;background-color: #fff;width: 190px;height: 25px;line-height: 25px;text-align: center;font-size: 18px;font-weight: 600;border-radius: 5px;color: #2b2b2b;}
+
+@media screen and (min-width: 500px) {
+    .comm_box ul .purpose1{top: -17px;left: 50%;margin-left: -65px;}
+    .comm_box ul .purpose2, .comm_box ul .purpose3{top: 50%;margin-top: -65px;}
+    .comm_box ul .purpose4{bottom: 0;left: 50%;margin-left: -65px;}
+    .comm_box ul .purpose2{margin-left: 130px;}
+    .comm_box ul .purpose3{margin-left: -263px;}
+}

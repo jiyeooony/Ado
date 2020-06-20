@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>Rooms : HOTEL : Ado</title>
+    <link rel="stylesheet" href="assets/css/swiper.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/brandHotel.css">
+    <link rel="shortcut icon" href="assets/images/common/logo_header.png">
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/rooms.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/fadeInUp.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header"> 
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="assets/images/common/logo_header.png" alt="Ado" class="logo_h" srcset="assets/images/common/logo_header.png 2x, assets/images/common/logo_header.png 3x">
+                </a>
+            </h1>
+            <button class="btn_menu">
+                <span class="sr-only">메뉴 열기</span>
+                <span class="line top"></span>
+                <span class="line mid"></span>
+                <span class="line btm"></span>
+            </button>
+            <button class="btn_mypage">
+                <img src="assets/images/common/user.png" alt="마이페이지" srcset="assets/images/common/user.png 2x, assets/images/common/user.png 3x">
+            </button>
+            <nav id="gnb">
+                <h2 class="sr-only">주메뉴</h2>
+                <div class="sign">
+                    <a href="">로그인</a>
+                    <a href="">회원가입</a>
+                    <a href="">고객센터</a>
+                    <a href="">오시는 길</a>
+                </div>
+                <ul>
+                    <li class="nolink">
+                        <a href="">RESERVATION</a>
+                    </li>
+                    <li>
+                        <a href="BrandConcept.html">BRAND STORY</a>
+                        <ul>
+                            <li><a href="BrandConcept.html">Brand Concept</a></li>
+                            <li><a href="Vision.html">Vision</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Rooms.html">HOTEL</a>
+                        <ul>
+                            <li><a href="Rooms.html" class="line_h">Rooms</a></li>
+                            <li><a href="SubsidiaryFacilities.html">Subsidiary Facilities</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">SERVICE</a>
+                        <ul>
+                            <li><a href="">Pet Gromming</a></li>
+                            <li><a href="">Medical Center</a></li>
+                            <li><a href="">Training</a></li>
+                            <li><a href="">Pet Foods</a></li>
+                            <li><a href="">Pet Supplies</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">MEMBERSHIP</a>
+                        <ul>
+                            <li><a href="">등급별 혜택</a></li>
+                            <li><a href="">포인트 이용 방법</a></li>
+                            <li><a href="">이용약관</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="rooms_cnt">
+            <div class="brandH roomF">
+                <img class="img" src="assets/images/hotel/hotel_tit.jpg" alt="">
+                <h2>HOTEL</h2>
+                <div class="btn">
+                    <a href="Rooms.html" class="line_h active">Rooms</a>
+                    <a href="SubsidiaryFacilities.html">Subsidiary <br>Facilities</a>
+                </div>
+            </div>
+            <div class="hotelIntro">
+                <h3>반려동물에게 최상의 서비스를 제공하는 <br>
+                Ado Pet Hotel에 오신 것을 환영합니다.</h3>
+                <strong>모든 룸은 1박에 3만5천원부터 시작합니다.</strong>
+                <p>Ado Pet Hotel은 당사 호텔에 묵는 애완 동물 고객에게 <br>최고 수준의 안락함과 보살핌을 제공하여 어떠한 동물 고객이 <br>와도 105개의 맞춤형 객실을 제공합니다. 고도로 훈련된 저희 <br>직원들이 모든 것들을 세심하게 관리하여 애완 동물이 안전하고 <br>
+                재미 있으며 편안한 숙박을 지내므로서 주인 분들은 언제나 <br>편하게 맡기실 수 있습니다. 반려 동물을 언제든 맡기실 수 <br>있도록 저희 시설은 연중 무휴 24시간 직원을 두고 있습니다.</p>
+                <span>저희 호텔에 안 맡겨보신 분은 있어도 <br>한번만 맡겨보신 분은 없습니다.</span>
+            </div>
+            <div class="room_info fade">
+                <h3>ROOMS</h3>
+                <ul role="tablist" aria-label="room info">
+                    <li role="tab" id="tab1" aria-controls="tabpanel1" class="first">Ado <br>Classic</li>
+                    <li role="tab" id="tab2" aria-controls="tabpanel2">Ado <br>Luxury</li>
+                    <li role="tab" id="tab3" aria-controls="tabpanel3">Ado <br>Royal</li>
+                    <li role="tab" id="tab4" aria-controls="tabpanel4">Ado President</li>
+                    <li role="tab" id="tab5" aria-controls="tabpanel5">Ado Catlantis Classic</li>
+                    <li role="tab" id="tab6" aria-controls="tabpanel6" class="last">Ado Catlantis Luxury</li>
+                </ul>
+                <div role="tabpanel" id="tabpanel1">
+                    <div class="txt smallRoom">
+                        <strong>Ado Classic</strong>
+                        <p>16 제곱미터 <br>
+                            39 인치 HD 평면 TV <br>
+                            애완동물 관련 영화 <br>
+                            아늑한 스위트 룸 <br>
+                            강화 유리 문 <br>
+                            깨끗한 물 제공</p>
+                        <span class="price"><span>￦</span> 35,000</span>
+                    </div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="assets/images/hotel/classic_1.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="assets/images/hotel/classic_2.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="assets/images/hotel/classic_3.jpg" alt=""></div>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <div role="tabpanel" id="tabpanel2">
+                    <div class="txt smallRoom">
+                        <strong>Ado Luxury</strong>
+                        <p>32제곱미터 <br>
+                            18인치 HD 평면 TV <br>
+                            애완동물 관련 영화 <br>
+                            아늑한 스위트 룸 <br>
+                            고급 편의 시설 <br>
+                            깨끗한 물 제공</p>
+                        <span class="price"><span>￦</span> 42,000</span>
+                    </div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="assets/images/hotel/luxury_1.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="assets/images/hotel/luxury_2.jpg" alt=""></div>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <div role="tabpanel" id="tabpanel3">
+                    <div class="txt bigRoom">
+                        <p>
+                            <strong>Ado Royal</strong>
+                            <span class="price"><span>￦</span> 58,000</span>
+                        </p>
+                        <p class="explanation">64제곱미터 <br>
+                            맞춤형 개인실 <br>
+                            42인치 HD 평면 TV <br>
+                            애완동물 관련 영화 
+                        </p>
+                        <P>
+                            프리미엄 메모리 폼 매트리스 <br>양털 덮개로 된 이불 제공 <br>자연 채광이 있는 고급 편의 시설 <br>깨끗한 물 제공
+                        </P>
+                    </div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src="assets/images/hotel/royal_1.jpg" alt="">
+                                
+                            </div>
+                            <div class="swiper-slide"><img src="assets/images/hotel/royal_2.jpg" alt=""></div>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <div role="tabpanel" id="tabpanel4">
+                    <div class="txt bigRoom">
+                        <p>
+                            <strong>Ado President</strong>
+                            <span class="price"><span>￦</span> 67,000</span>
+                            </p>
+                        <p class="explanation">
+                            개와 고양이 모두 예약 가능 <br>100제곱미터 <br>맞춤형 개인실 <br>42인치 HD 평면 TV <br>애완동물 관련 영화
+                        </p>
+                        <P>
+                            크리스탈 샹들리에 <br>프리미엄 메모리 폼 매트리스 <br>양털 덮개로 된 이불 제공 <br>자연 채광이 있는 고급 편의 시설 <br>룸 서비스
+                        </P>
+                    </div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src="assets/images/hotel/president_1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide"><img src="assets/images/hotel/president_2.jpg" alt=""></div>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <div role="tabpanel" id="tabpanel5">
+                    <div class="txt bigRoom">
+                        <strong>Ado Catlantis Classic</strong>
+                        <p>16 제곱미터 <br>
+                            청결을 위해 공기를 대체하는 <br>
+                            맞춤형 독립 공기 시스템 <br>
+                            아늑한 스위트 룸 <br>
+                            지속적인 개인 관리 <br>
+                            매일 하우스 키핑 및 정수</p>
+                        <span class="price"><span>￦</span> 35,000</span>
+                    </div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src="assets/images/hotel/catclassic_1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide"><img src="assets/images/hotel/catclassic_2.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="assets/images/hotel/catclassic_3.jpg" alt=""></div>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <div role="tabpanel" id="tabpanel6">
+                    <div class="txt bigRoom">
+                        <strong>Ado Catlantis Luxury</strong>
+                        <span class="price"><span>￦</span> 58,000</span>
+                        <p class="explanation">32제곱미터 <br>
+                            청결을 위해 공기를 대체하는 <br>
+                            맞춤형 독립 공기 시스템 <br>
+                        <p>
+                            맞춤형 개인 공간 <br>
+                            지속적인 개인 관리 <br>
+                            매인 하우스 키핑 및 정수</p>
+                        </p>
+                    </div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src="assets/images/hotel/catluxury_1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide"><img src="assets/images/hotel/catluxury_2.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="assets/images/hotel/catluxury_3.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="assets/images/hotel/catluxury_4.jpg" alt=""></div>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <h3 class="fade">호텔 이용시간</h3>
+                <p class="time fade">운영시간<span>매일 오전 9시 반 ~ 오후 21시</span></p>
+                <p class="color fade">연중무휴로 운영됩니다.</p>
+                <p class="notice fade">모든 서비스는 100% 예약제로 운영됩니다. <br>
+                호텔과 유치원은 사전예약시 오전 8시부터 입실이 가능합니다. (사전예약 필수) <br>
+                사전 입실 시 개인 상담이 어려우니 양해해 주시기 바랍니다.</p>
+                <div class="reserve">
+                    <a href="">예약하기</a>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <a href=""><img src="assets/images/common/logo_footer.png" alt="Ado"></a>
+            <div>
+                <p>㈜Ado 서울숲 캠퍼스 <br>
+                대표이사 : 박지연 <br>
+                사업자번호 : 372-15-88692</p>
+                <address>주소 : 서울특별시 성동구 왕십리로 241 <br>
+                전화 : 1566-7825</address>
+            </div>
+            <p>copyright&copy;2019 Ado.All Rights Reserved.</p>
+        </footer>
+    </divro>
+</body>
+</html>
