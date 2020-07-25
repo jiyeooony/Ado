@@ -26,7 +26,7 @@
 .swiper-pagination-fraction{bottom: 3px;width: 20%;}
 
 /* main-content */
-#content{padding-top: 85px;}
+#content{padding-top: 125px;}
 #content .system{position: relative;text-align: center;letter-spacing: -0.04px;}
 #content .system h3{font-size: 18px;font-weight: 600;margin-top: 50px;line-height: 12px;color: #4bbe9e;}
 #content .system > p{font-size: 14px;margin-top: 20px;font-family: dreamG;line-height: 22px;}
@@ -197,8 +197,8 @@
 .medical .medical_bg{background-image: url(../images/hotel/medical.jpg);}
 
 /* 공통 스타일 */
-.conceptV{margin-top: 80px;box-sizing: border-box;}
-.roomF{margin-top: 80px;box-sizing: border-box;background-size: cover;padding-top: 12px;text-align: left;}
+.conceptV{margin-top: 120px;box-sizing: border-box;}
+.roomF{margin-top: 120px;box-sizing: border-box;background-size: cover;padding-top: 12px;text-align: left;}
 .brandH{position: relative;}
 .brandH .img, .roomF .img{position: relative;left: 50%;max-width: 600px;min-width: 320px;width: 100%;height: auto;transform: translateX(-50%);}
 .brandH h2{position: absolute;top: 30px; width: 230px;height: 36px;line-height: 36px;margin-left: -115px;;font-size: 22px;font-weight: 700;text-align: center;left: 50%;border-radius: 5px;color: #2b2b2b;}
